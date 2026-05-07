@@ -1,0 +1,5 @@
+*.csv
+*.zip
+item_data/
+__MACOSX/
+.DS_Store
