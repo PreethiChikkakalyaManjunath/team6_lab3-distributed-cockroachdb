@@ -718,9 +718,11 @@ The lab successfully handled over 10 million rows of distributed data while supp
 
 The repository contains organized screenshots demonstrating every major stage of the distributed database deployment and evaluation.
 
-## Kubernetes Deployment
+# Kubernetes Deployment
 
-### `01_kubernetes_pods.png`
+## Kubernetes Pods
+
+![Kubernetes Pods](screenshots/01_kubernetes_pods.png)
 
 Shows CockroachDB StatefulSet pods distributed across Kubernetes worker nodes.
 
@@ -733,7 +735,9 @@ Demonstrates:
 
 ---
 
-### `02_cluster_node_status.png`
+## Cluster Node Status
+
+![Cluster Node Status](screenshots/02_cluster_node_status.png)
 
 Shows all CockroachDB nodes live and operational.
 
@@ -748,7 +752,9 @@ Demonstrates:
 
 # Scaling Demonstration
 
-### `03_scale_down_2_nodes.png`
+## Scale Down to 2 Nodes
+
+![Scale Down](screenshots/03_scale_down_2_nodes.png)
 
 Shows the cluster after scaling down to 2 nodes.
 
@@ -760,7 +766,9 @@ Demonstrates:
 
 ---
 
-### `04_scale_up_6_nodes.png`
+## Scale Up to 6 Nodes
+
+![Scale Up](screenshots/04_scale_up_6_nodes.png)
 
 Shows successful horizontal scaling to 6 nodes.
 
@@ -774,7 +782,9 @@ Demonstrates:
 
 # Database Structure
 
-### `05_database_tables.png`
+## Database Tables
+
+![Database Tables](screenshots/05_database_tables.png)
 
 Shows all tables inside the `fashion_shop` database.
 
@@ -786,7 +796,9 @@ Tables:
 
 ---
 
-### `06_users_row_count.png`
+## Users Dataset Import
+
+![Users Count](screenshots/06_users_row_count.png)
 
 Shows successful import of the users dataset.
 
@@ -796,7 +808,9 @@ Dataset size:
 
 ---
 
-### `07_sales_row_count.png`
+## Sales Dataset Import
+
+![Sales Count](screenshots/07_sales_row_count.png)
 
 Shows successful import of the sales dataset.
 
@@ -809,7 +823,9 @@ Dataset size:
 
 # Distributed Storage and Sharding
 
-### `08_sales_ranges.png`
+## Automatic Range Splitting
+
+![Sales Ranges](screenshots/08_sales_ranges.png)
 
 Shows automatic range splitting for the sales table.
 
@@ -821,7 +837,9 @@ Demonstrates:
 
 ---
 
-### `09_sales_ranges_detailed.png`
+## Detailed Replica Distribution
+
+![Detailed Ranges](screenshots/09_sales_ranges_detailed.png)
 
 Shows detailed replica placement and lease-holder distribution.
 
@@ -843,7 +861,9 @@ This demonstrates:
 
 # Indexing
 
-### `10_sales_indexes.png`
+## Sales Indexes
+
+![Indexes](screenshots/10_sales_indexes.png)
 
 Shows indexes created for query optimization.
 
@@ -857,7 +877,9 @@ Indexes:
 
 # Distributed Analytical Queries
 
-### `11_top_countries_query.png`
+## Top Countries Query
+
+![Top Countries](screenshots/11_top_countries_query.png)
 
 Shows distributed aggregation query over the users dataset.
 
@@ -869,7 +891,9 @@ Demonstrates:
 
 ---
 
-### `12_top_selling_items.png`
+## Top Selling Items
+
+![Top Selling Items](screenshots/12_top_selling_items.png)
 
 Shows analytical processing over more than 10 million sales rows.
 
@@ -881,7 +905,9 @@ Demonstrates:
 
 ---
 
-### `13_average_rating_query.png`
+## Average Rating Query
+
+![Average Rating](screenshots/13_average_rating_query.png)
 
 Shows numerical aggregation across the distributed sales dataset.
 
@@ -893,7 +919,9 @@ Demonstrates:
 
 ---
 
-### `14_rating_distribution.png`
+## Rating Distribution
+
+![Rating Distribution](screenshots/14_rating_distribution.png)
 
 Shows grouped analytical queries on ratings data.
 
@@ -907,7 +935,9 @@ Demonstrates:
 
 # JSON and Semi-Structured Queries
 
-### `15_json_query_items.png`
+## JSON Query on Items
+
+![JSON Query](screenshots/15_json_query_items.png)
 
 Shows PostgreSQL-compatible JSON querying in CockroachDB.
 
